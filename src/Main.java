@@ -8,11 +8,11 @@ public class Main {
         //tree.add(50);
         tree.add(156);
         tree.add(120);
-        tree.add(121);
+        //tree.add(121);
         tree.add(222);
         //System.out.println(tree.exists(120)); WORKS
         tree.printInOrder();
-        tree.delete(120);
+        tree.delete(156);
         System.out.println();
         tree.printInOrder();
     }
